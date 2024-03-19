@@ -8,9 +8,6 @@ import {
 } from "./components/modal.js";
 import { createCard, likeCard, deleteCardFunc } from "./components/card.js";
 
-// @todo: Темплейт карточки
-export const cardTemplate = document.querySelector("#card-template").content;
-
 // @todo: DOM узлы
 const placesList = document.querySelector(".places__list");
 
